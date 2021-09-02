@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    width: 90%;
+    margin: 20px auto ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.profile-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic{
+    border-radius: 20px;
+    margin: 15px;
+    width: 10%;
+}
+
+.profile-part p{
+    font-size: 24px;
+    color: #4E5150;
+    margin: 5px;
+}
+
+.profile-part span{
+    font-size: 16px;
+    color: #A9A9A9;
+    margin: 5px;
+}
+
+.grey-cards{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card{
+    background-color: #E5E5E5;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.card p{
+    color: #4E5150;
+    font-size: 14px;
+}
+
+.card span{
+    color: #BDBDBD;
+    font-size: 12px;
+}
+
+.images-container{
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.img-stool{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 95%;
+    border-radius: 15px;
+}
+
+.img-chair{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 98%;
+    border-radius: 15px;
+}
+
+.img-tub{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.img-raffia{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.img-leaves{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.img-lamp{
+    grid-column: 3/4;
+    grid-row:2/4 ;
+    width: 97%;
+    border-radius: 15px;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #B9BDCF;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:768px){
+
+    body{
+        width: 100%;
+    }
+
+    .profile-pic{
+        border-radius:10px;
+        width: 30%;
+    }
+
+    .profile-part p{
+        font-size: 16px;
+
+    }
+
+    .profile-part span{
+        font-size: 12px;
+    }
+
+    .grey-cards{
+        margin: 0;
+    }
+
+    .images-container{
+        width: 90%;
+        margin: 30px auto;
+        gap: 10px;
+    }
+
+    .img-stool{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .img-chair{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .img-tub{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .img-raffia{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .img-leaves{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .img-lamp{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
